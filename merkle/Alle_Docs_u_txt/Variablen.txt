@@ -1,0 +1,76 @@
+Variablen
+
+Variablen sind Platzhalter für einen Datentyp
+
+Variablen müssen deklariert (vereinbart, allokiert) werden, weil:
+1. Eine Bitfolge ergibt nur einen Sinn,
+wenn man weiß, wie sie zu interpretieren ist.
+2. Verschiedene Datentypen brauchen unterschiedlich viel Speicher.
+3. Ansprechen des Speicherbereiches unter einem Namen.
+
+Notwendige Infos für die Deklaration einer Variablen:
+1. Typ
+2. Namen
+(3. abschließendes Semikolon)
+
+Form einer Deklaration:
+<Typ> <Leerzeichen> <Name> <Semikolon>
+
+Beispiel: int a;
+
+Herleitung "etwas vor die Klammer ziehen":
+In der Mathematik: 3a + 3b + 6c + 3d = 3*(a+b+2c+d)
+Zweiter Ausdruck ist kürzer u. übersichtlicher.
+Man sieht auf den ersten Blick den gemeinsamen Faktor.
+Übertagen aus die Deklaration:
+
+Mehrfachdeklaration:
+Mehrere Variabeln sollen vom gleichen Typ deklariert werden:
+int a; int b; int c; int d;
+kürzer mit der "Mehrfachdeklaration":
+int a,b,c,d;
+
+Zuweisung (eines Wertes an eine Variable):
+Notwendige Infos:
+1. Variablennamen
+2. Wert der zugewiesen werden soll
+(3. Semikolon)
+
+Form:
+<Variablenname> = <Wert>;
+Beispiel:
+a = 17;
+
+Problematisch:
+1. Gleichheitszeichen wird in Mathematik als Vergleich auf Gleichheit benutzt.
+Hier bekommt es eine andere Bedeutung.
+Das ist fehleranfällig.
+2. Zeichen ist "symmetrisch".
+Es geht nicht die Richtung des Werteflusses hervor.
+Beispiel für Verwechslungsgefahr:
+int a,b;
+a=3; b=5;
+a=b;
+Wertefluss <entgegen> der Leserichtung:
+a bekommt den Wert von b.
+Alternative in Pascal:
+Dort wird die Zuweisung mit der Zeichenfolge ":=" geschrieben.
+Somit kann Gleichheitszeichen seine ursprüngliche Bedeutung behalten
+u. es geht die Richtung des Werteflusses hervor.
+In der Mathematik würde man die Zeichenfolge lesen als:
+"Wird definiert als..."
+Hier: a:=b;
+
+Initialisierung (einer Variable):
+Initialisierung heißt, schon bei der Deklaration einen Wert zuzuweisen.
+Form: <Typ> <Leerzeichen> <Variablennamen> = <Initialwert>;
+Beispiel: int a=17;
+
+Mischung bei Mehrfachdeklaration: Mit u. ohne Initialisierung:
+int a=3, b=5, c;
+
+Bezeichner sind Namen für Klassen, Variablen, später Methoden u.ä.
+2 Typen von Konventionen:
+harte u. weiche.
+"harte" sind bindend, werden vom Compiler erzwungen
+"weiche" sind Empfehlungen

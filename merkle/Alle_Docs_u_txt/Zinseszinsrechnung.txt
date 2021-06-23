@@ -1,0 +1,30 @@
+Aufgabenstellung zur Verzinsung:
+Gegeben sei ein Startkapital von z.B. 100€
+sowie ein Zinssatz von 3%.
+
+Fragestellung 1:
+Auf welchen Betrag hat sich das Kapital
+nach 10 Jahren vermehrt?
+
+Fragestellung 2:
+Wie viele Jahre dauert es,
+bis sich das Kapital verdoppelt hat?
+
+Verzinsung z.B. hier mit 3%
+eines Kapitals "aktu_Kapital":
+Nach 1 Jahr bleiben die 100% des Kapitals erhalten.
+Es kommen 3% hinzu.
+Also sind nach einem Jahr 103% vorhanden.
+Berechnet wird das einfach mit Multiplikation mit 1.03:
+aktu_Kapital *= 1.03;
+
+Wollen wir den Zinssatz variabel halten,
+berechnen wir den Faktor von oben 1.03 wie folgt
+u. benennen ihn "q":
+double aktu_Kapital=100.0, zinssatz=3.0;
+// ***
+double q = 1.0 + zinssatz/100.0;
+
+Verzinsung damit:
+
+	aktu_Kapital *= q;

@@ -1,0 +1,11 @@
+Unterscheidung von
+- allgemeinen Programmiersprachen 
+- Skriptsprachen:
+
+1. Allgemeine Programmiersprachen sind (in der Regel)
+umfangreicher als Skriptsprachen
+2. Allgemeine Programmiersprachen heißten "allgemein" in dem Sinn,
+dass sie keine starke Spezialisierung haben wie Skriptsprachen.
+3. Für allgemeine Programmiersprachen ist eher 
+die <explizite> Form der Deklaration typisch,
+für Skriptsprachen eher die <implizite>.

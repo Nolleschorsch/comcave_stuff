@@ -1,0 +1,57 @@
+	Präfix- u. Postfixnotation des Inkrement/Dekrement-Operators
+
+"prä" steht für "vor", z.B. "prähistorisch" oder "Preludium",
+"post" steht für "nach", z.B. "post mortem dump" oder "PS"
+
+Präfixschreibweise:  ++i, --i
+
+Postfixschreibweise: i++, i--
+
+Wann ergeben die beiden Varianten einen Unterschied, wann sind sie identisch?
+
+Wenn der Ausdruck alleine dasteht, wie im Veränderungsteil einer Schleife, ist die Bedeutung die Gleiche.
+Ein Unterschied ergibt sich nur dann,
+wenn der Operator in einem Ausdruck verwendet wird.
+
+Dann sind 2 Aufgaben zu erledigen:
+1. Verändern der Variablen
+2. Auswertung der Variablen im Ausdruck.
+
+In solch einer Situation wird:
+- bei der Präfix-Notation <zuerst> die Variable verändert, danach wird sie im Ausdruck ausgewertet.
+- bei der Postfix-Notation erfolgt die Veränderung der Variablen <nach> Auswertung im Ausdruck.
+
+Beispiel 1:
+
+int a=5;
+				// Wert von a vor Ausdruck	Ausgabe		Wert von a nach Ausdruck
+System.out.println (a);		// 	5			5			5
+System.out.println (++a);	//	5			6			6
+System.out.println (a++);	//	6			6			7
+System.out.println (a);		//	7			7			7
+
+Bei Anweisung "Sys..(++a);" in Präfixnotation
+wird a erst imkrementiert von 5 auf 6 u. danach verarbeitet, also ausgegeben.
+Deshalb ist die Ausgabe "6"
+
+Bei Anweisung "Sys..(a++);" in Postfixnotation
+wird die Variable erst nach Auswertung hochgezählt.
+Deshalb wird der bisherige Wert von a, die 6 ausgegeben.
+Erst danach wird sie hoch gezählt.
+Das kann man in der letzten Ausgabeanweisung sehen,
+wo a "nur" ausgegeben wird ohne Veränderung.
+
+Die Differenzierung dient dazu, 
+Befehle zusammenfassen zu können,
+z.B. "push()" u. "pop()" beim Stack, siehe später.
+
+
+Beispiel 2:
+
+Präfix		|	Postfix			
+	int a=5, b;
+b=++a;		|	b=a++;
+	Sys..(b);
+
+	Ausgabe:
+6		|	5

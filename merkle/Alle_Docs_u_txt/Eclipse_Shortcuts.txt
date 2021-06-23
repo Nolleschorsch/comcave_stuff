@@ -1,0 +1,25 @@
+Shortcuts für Eclipse:
+
+- Öffnen des Package Explorers:
+<Shift> + <Alt> + q, p
+- Anlegen eines neuen Projektes
+oder einer neuen Klasse im Projekt:
+<Shift> + <Alt> + n
+- Automatisches Speicher, Compilieren
+u. (im Erfolgsfall) Ausführen:
+<Strg> + <F11>
+(Für Funktionstaste mglw. Extrataste)
+- Schließen aller offenen Editorfenster:
+<Shift> + <Strg> + w
+
+- Find and replace: 
+<Strg> + f
+- Autoformatierfunktion:
+<Shift> + <Strg> + f
+- Speichern der aktuellen Datei:
+<Strg> + s
+- Speichern aller offenen Dateien:
+<Shift> + <Strg> + s
+- Duplizieren der aktuellen Zeile
+oder des selektierten Bereiches:
+<Strg> + <Alt> + <Pfeil hoch/runter>

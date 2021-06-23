@@ -1,0 +1,7 @@
+einfache, primitive Datentypen:				Operationen darauf:
+
+1. Ganzzahlen: integer: int, long, (short, byte)	+,-,*,/,  <,>,<=,>=,==,!= (ungleich),  % (Modulo)
+2. Fließkommazahlen: double, (float)			"		"			 -
+3. Wahrheitswerte: boolesche Werte: boolean		! (Negation), && (und), || (oder), ==, !=
+4. Zeichen: char
+(5. Zeichenketten: String)

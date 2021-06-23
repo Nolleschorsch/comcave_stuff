@@ -1,0 +1,57 @@
+Bedienungsanleitung Eclipse
+
+Package Explorer öffnen:
+Shortcut: <shift>+<alt>+q, p
+Per Menü: Window/Show View/Package Explorer
+
+1. Projekt anlegen:
+Shortcut: <Shift> + <Alt> + n
+-Rechtsklick auf leerer Stelle des Package Explorers
+	-New
+		-Java Projekt
+Im Dialogfeld:
+-Projektnamen vergeben
+-Finish
+Im nächsten Dialogfeld:
+-Don't create
+
+
+2. Klasse anlegen
+Per Shortcut bei selektiertem Projekt wie oben:
+<Shift> + <Alt> + n
+-Projekt öffnen durch Klick auf >
+-Rechtsklick auf den src-Ordner
+	-New
+		-Class
+Im nächsten Dialogfeld:
+- Namen für die Klasse (nicht das Package) vergeben
+- Haken setzen bei "create...main"
+- Finish
+
+3. Speichern, compilieren u. ausführen
+<strg>+<F11>
+Bei Aufruf mit nicht gespeicherten Dateien
+im Dialogfeld abhaken:
+"Always save ressources before launching".
+Dann werden immer alle Dateien vor Compilation
+automatisch gespeichert.
+
+
+4. Exportieren von Projekten:
+- File/Export
+im Dialogfeld:
+- General/Archive File, Next
+- Projekt oder mehrere Projekte links selektiern,
+Haken rechts müssen gesetzt sein
+- Browse: Pfad- u. Dateiname des Archives festlegen,
+bestätigen
+Finish
+
+
+5. Importieren von Projekten aus ZIP-Archiv:
+- File/Import
+- General/Existing Projects into Workspace, Next
+- Select archive fild
+- Browse: Archivefile auswählen
+Projekt erscheint im Dialogfeld u. ist ausgewählt
+- Finish

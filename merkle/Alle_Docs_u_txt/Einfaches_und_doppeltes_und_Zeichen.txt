@@ -1,0 +1,89 @@
+a && b		|	a & b
+
+und-Verknüpfung:
+
+a	b	|	a&b
+----------------------------
+0	0	|	0
+0	1	|	0
+1	0	|	0
+1	1	|	1
+
+0 && ... = 0	| 0 & ... = 
+Ist bei der und-Verknüpfung der erste Operator 0,
+ist das Ergebnis 0, unabhängig vom 2. Operanden.
+Bei der Version mit dem doppelten &
+wird deshalb der zweite Teil erst garnicht ausgewertet,
+weil dies nur Rechenzeit kosten würde,
+ohne dass es auf das Ergebnis einen Einfluss hätte.
+
+Bei der einfachen Version des Operanden mit nur einem &
+würde trotzdem der rechte Teil ausgewertet.
+Dies macht nur in Ausnahmefällen Sinn,
+(bei sog. Seiteneffekten der Ausertung,
+was zu benutzen schlechter Stil ist)
+
+Deshalb bevorzugen wir 
+(bzw. habe ich ausschließlich eingeführt)
+die Version mit dem doppelten und: &&
+
+1 && 1 = 1
+1 && 0 = 0
+
+============================
+
+oder-Verknüpfung:
+
+a	b	|	a||b
+-----------------------------
+0	0	|	0
+0	1	|	1
+1	0	|	1
+1	1	|	1
+
+1 | ... = 1
+
+Ist bei der oder-Verknüpfung der linke teil "true",
+ist das Ergebnis - unabängig vom zweiten Teil - true.
+Bei der Variante mit dem doppelten oder-Zeichen
+wird deshalb zur Optimierung 
+auf die Auswertung des zweiten Teiles verzichtet.
+
+Die Variante mit dem einzelnen oder-Operator hingegen
+würde die Auswertung trotzdem vornehmen.
+
+
+
+==========================
+
+Bei der doppelten Form der Operatoren,
+also "&&" u. "||" 
+erfolgt zuerst die Auswertung des linken Teiles.
+Wenn damit schon das Ergebnis feststeht,
+wird der rechte Teil erst garnicht mehr ausgewertet.
+
+Und:
+Dies ist bei dem und-Operator der Fall,
+wenn der linke Teil false ist.
+Dann ist klar, dass das Ergebnis false ist,
+unabhängig vom rechten Teil.
+0 && ... = 0
+
+Ist der linke Teil jedoch "true",
+hängt das Ergebnis vom rechten Teil ab.
+Deshalb muss er ausgewertet werden.
+Der Und-Operator bildet nur dann auf "true" ab,
+wenn beide Operanden "true" sind.
+
+Oder:
+Beim Oder-Operator muss der rechte Teil nicht ausgewertet werden,
+wenn linke Teil true ist.
+Dann ist klar, dass das Ergebnis "true" ist,
+unabhängig vom rechten Teil:
+1 || ... = 1
+
+Ist der linke Teil jedoch "false",
+hängt das Ergebnis vom rechten Teil ab.
+Deshalb muss er ausgewertet werden.
+Der Oder-Operator bildet nur dann auf "false" ab,
+wenn beide Operanden "false" sind.

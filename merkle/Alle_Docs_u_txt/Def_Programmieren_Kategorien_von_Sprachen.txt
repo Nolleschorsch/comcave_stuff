@@ -1,0 +1,90 @@
+Definition von "Programmieren":
+Erstellen eines Textes mit Befehlsfolgen für den Computer
+in einer Programmiersprache,
+der dem Computer genau vorschreibt,
+wie er das gewünschte Ziel erreicht.
+
+Bekannte Programmiersprachen:
+Java, C, C++, C##, Ruby, Perl, Python, VB, 
+PHP, HTML, Cobol, Fortran, Assembler, 
+Pascal, Modula-2,3, Prolog, Lisp, ML,
+Eifel, SQL, JavaScript, u. viele andere
+
+Kategorien von Programmiersprachen:
+1. Prozedurale Programmierung: Pascal, C
+2. Logische Programmiersprachen: Prolog
+3. Funktionale Programmiersprachen: LISP, ML
+4. Objektorientierte Programmiersprachen: Java, C++, C#
+
+Der Compiler:
+Der Compiler ist ein Programm,
+das einen Quelltext in ein ausführbares Programm umwandelt.
+
+Die Umwandlung kann nur korrekt erfolgen,
+wenn das Programm korrekt im Sinne der Programmiersprache ist,
+d.h. "syntaktisch" korrekt.
+Vergleichbar mit der Grammatik in einer gesprochenen Sprache.
+Gegenbeispiel: "Der blau Himmel ist" ist grammatikalisch nicht korrekt.
+Beim Programmieren wäre das ein "Syntaxfehler".
+
+Ergänzung bzw. Einschränkung der Def. des Compilers:
+Der Compiler wandelt den Quelltext nur dann in ein lauffähiges Programm um,
+wenn es syntaktisch korrekt ist.
+
+Neben Syntaxfehlern gibt es einen zweiten Typ Fehler:
+Den semantischen Fehler:
+Beispiel in der gesprochenen Sprache:
+"Der Himmel ist grün."
+Der Satz ist zwar grammatikalisch, nicht aber inhaltlich richtig.
+Beim Programmieren: 
+Das Programm läuft zwar prinzipiell,
+tut aber nicht was es soll:
+Semantischer Fehler.
+
+In beiden Fehlerfällen müssen wir zum Editor zurück
+u. den Fehler beheben,
+so dass das Programm <sowohl> syntaktisch
+<als auch> semantisch korrekt ist.
+
+Zyklus des Programmierens:
+
+1. Quelltext im Editor erstellen bzw. verändern
+	|	compilieren mit dem Compiler
+	v	Möglicher Fehler: Syntax
+2. (Direkt oder indirekt) ausführbares Programm
+	|	ausführen
+	v	Möglicher Fehler: Semantik
+3. Programm wird ausgeführt
+
+Was heißt "direkt oder indirekt ausführbar"?
+Dies führt uns zur Plattformunabhängigkeit von Java
+
+Unsere Computerwelt ist geteilt in:
+1. PC mit Windows
+2. Mac
+3. Unix mit Derivaten wie Linux, Ubuntu, Solaris u.a.
+
+Wunsch: Nur ein Programm zu schreiben,
+das (ohne Änderungen) auf allen drei Plattformen lauffähig ist.
+
+Dies leistet die Plattformunabhängigkeit von Java:
+Es wird kein Programm geschrieben, 
+das <direkt> auf der Zielmaschine ausgeführt wird,
+sondern es wird eine Zwischensprache eingeführt,
+der "Byte Code".
+Der Compiler überführt den Java-Quelltext in Bytecode.
+Auf den konkreten Maschinen werden "virtuelle Maschinen" aufgesetzt,
+die den Byte Code ausführen können.
+So erzeugt der Compiler in Java nur <indirekt> ausführbare Programme.
+Vorteil: Plattformunabhängigkeit
+Nachteile:
+1. Langsamere Programmausführung
+2. Virtuelle Maschinen müssen zur Verfügung gestellt werden.
+
+Interpretation:
+zu 1.: Für "normale" Anwendungen fällt Verzögerung nicht ins Gewicht.
+Bei Echtzeitanwendungen andere Sprache oder Hardware verwenden.
+Z.B: Programmiersprache "C" oder Microkontroller direkt programmieren
+zu 2.: VM (Virtuelle Maschine) ist heute selbstverständlich auf jedem System
+Die Nachteile sind nur in Ausnahmefällen von Relevanz.
+Das Prinzip ist genial u. der wesentliche Vorteil von Java!

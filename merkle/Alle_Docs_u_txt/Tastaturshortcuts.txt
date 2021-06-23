@@ -1,0 +1,11 @@
+Im Editor:
+<strg> + o: Datei öffnen
+<strg> + s: Speichern (unter bisherigem Namen)
+<shift> + <strg> + s: Speichern unter
+<alt> + <tab>: Aktives Fenster wechseln
+
+Im CMD:
+Zugriff auf Befehlshistorie mit den Pfeiltasten
+
+Fenster schließen:
+<alt> + F4

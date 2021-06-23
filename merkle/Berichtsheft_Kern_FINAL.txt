@@ -1,0 +1,1893 @@
+Kernquali Berichtsheft
+5/2021
+Rainer Merkle 
+
+Tag 1: 03.05.2021
+Vorstellungsrunde
+Klärung der formalen Aspekte
+inhaltliche Vorschau
+
+Def. von "Programmieren"
+Unterschiedliche Natur von Mensch u. Maschine
+Arbeitsaufteilung
+
+Gesprochene Sprachen zum Programmieren ungeeignet
+allgemeine Programmiersprachen vs. Skriptsprachen
+Beipspiele für Programmiersprachen
+Kategorien von Programmiersprachen
+Anforderungen an Programmiersprachen
+u. wie diese im Widerspruch zueinander stehen
+
+Plattformen bei Computern
+Der Compiler, Definition u. Eingrenzung
+Das black-box-Modell
+
+Compilieren: direkt u. indirekt
+Vergleich mit Kommunikation zwischen Menschen
+mit der Zwischensprache "Englisch"
+Übertagung auf Computerwelt:
+Java mit Zwischensprache "Bytecode"
+zur Erzielung einer Plattformunabhängigkeit
+Schematische Darstellung
+Analyse von Vor- u. Nachteilen
+
+Aufgaben:
+I.: Skript bis Folie 35,
+zusätzliche Dokumente:
+- Protokoll_Kern_2021_05_03.txt
+- Compilieren_direkt_und_indirekt.docx
+II.: Verständnisfragen aus separater Datei
+
+
+
+Tag 2: 04.05.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+C als prozdurale, hardwarenahe Sprache
+Verglich zu Java als objektorientierte,
+plattformunabhängige u. Sprache, 
+die jedoch langsamer ist.
+
+Programmentwicklung auf zwei Arten:
+1. "zu Fuß Methode" mit CMD u. Editor
+2. grafische Oberfläche wie Eclipse oder Visual Studio
+IDE: "Integrated Development Environment"
+
+Entwicklungsumgebung für Java:
+JDK: Java Development Kit
+  SE: Standard Edition
+  EE: Enterprise "
+JRE: Java Runtime Environment
+
+Sich veränderndes Lizenzmodell,
+mit zwar neuen JDKs, nicht aber passenden JREs.
+
+Herunterladen u. Installieren der Umgebung
+Setzen der Pfadvariablen
+
+Kommandos im CMD wie Pfadwecksel, Verzeichnisinhalt anzeigen,
+Bildschirminhalt löschen u.ä.
+
+Zyklus des Programmierens
+Fehler die dabei auftreten können:
+syntaktische u. semantische
+
+Dateiextensions für Quelltexte u. Bytecode
+Befehle zum Compilieren u. Ausführen
+
+Programmrahmen in Java
+Unser erstes "Hello world!" Programm,
+compilieren u. ausführen.
+Beseitigung von Fehlern
+
+Aufgaben:
+I.: Skript bis Folie 65
+zusätzliche Dokumente:
+- Befehle_im_CMD.txt
+- Zyklus_des_Programmierens.docx
+Quelltexte:
+- Rahmen.java
+II.: Verständnisfragen aus separater Datei
+
+
+Tag 3: 05.05.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Aufbau von Befehlen
+Die Rolle des Semikolons in verschiedenen Sprachen
+Blockbildung mit geschweiften Klammern
+Konventionen zur Einrückung mit zwei Alternativen
+
+Einfache Datentypen sowie Operationen darauf
+Variablen:
+Warum Variablen deklariert werden müssen
+Deklaration, Mehrfachdeklaration, Zuweisung,
+Initialisierung, Bezeichner.
+Vergleich zu Pascal
+Jeweils mit Beispiel
+
+Shortcuts zum schnellen Arbeiten ohne Maus,
+z.B. Datei speichern, Befehlshistorie im CMD,
+Dateinamen ergänzen lassen, Wortweises springen,
+Wechsel des aktiven Fensters u.a.
+
+Einfaches Beispiel für Variablen
+
+Ausgabe von Variableninhalten 
+mit der Ausgabeanweisung: System.out.println ();
+
+Aufgaben:
+I.: Skript bis Folie 92
+zusätzliche Dokumente:
+- Protokoll_Kern_2021_05_05.txt
+- Datentypen_und_Operationen_darauf.txt
+- Variablen.txt
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgabe:
+Variieren Sie das Beispiel "Variablen_1" so,
+dass Sie andere Variablennamen verwenden,
+andere Initialisierungswerte u. eine 
+andere Grundrechenart!
+
+
+Tag 4: 06.05.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Variante der Ausgabeanweisung:
+"System.out.print ()" ohne "ln"
+vermeidet Zeilenumruch
+
+Mehrfachausgabe, um mehrere Teile einer Ausgabe
+in einer Ausgabeanweisung wiedergeben zu können.
+Teile werden "konkateniert", "zusammen geklebt".
+
+Berechnungen in der Ausgabeanweisung
+
+Ressourcen in der Programmierung:
+Platz, Zeit, Nachvollziehbarkeit, Wartbarkeit, 
+Länge des Quelltexte
+Wettstreit der Ressourcen: "Trade-off"
+
+Kommentare:
+Zwei Motivationen,
+Zwei Formen: Ein- u. mehrzeiliger Kommentar
+Beispiel für beide Formen
+
+Escape-Sequenzen:
+Steuerzeichen in der Ausgabeanweisung
+in der wörtlichen Rede für Zeilenumbruch,
+Tab-Sprung, Ausgabe des Anführungszeichens
+u. des Backslashes
+Jeweils ein Beispiel dazu.
+
+Kontrollstrukturen:
+Motivation, Überblick
+
+Aufgaben:
+I.: Skript bis Folie 155
+Zusätzliche Dokumente:
+- Protokoll_Kern_2021_05_06.txt
+- Kontrollstrukturen.docx
+Quelltexte:
+- Escape.java
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgaben:
+zur Mehrfachausgabe: 1. Folie 108
+zu Escape-Sequenzen: 2. Folie 149
+Profiaufgabe zu booleschen Variablen u. Escape-Sequenzen:
+3. Folie 152
+
+
+
+Tag 5: 07.05.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Besprechung der Aufgaben zur Mehrfachausgabe
+u. zu Escape-Sequenzen
+
+Erste Kontrollstruktur: For- oder Zählschleife
+Motivierendes Beispiel dafür
+
+Programmablaufpläne, PAPs:
+Auflistung der Elemente
+Daraus Modellierung des Beispiels von oben.
+
+Verallgemeinerung des PAPs auf allgemeine Zählschleifen
+Extraktion der notwendigen Infos
+Allgemeine Syntaxstruktur
+Daraus Herleitung der Syntax der for- oder Zählschleife
+auf zwei Abstraktionsebenen.
+
+Umsetzung des Beispiels von oben in Java.
+
+Möglichkeit, geschweifte Klammern um Blöcke weg zu lassen,
+sofern sie nur aus einer Abweisung bestehen.
+
+Zugriff auf die Zählvariable in der Schleife,
+lesend wie schreibend.
+Erweiterung des Beispiels von oben
+mit lesendem Zugriff auf die Zählvariable
+
+Inkrement/Dekrement-Schreibweise:
+Herleitung aus Wunsch der Verkürzung
+des Veränderungsteils in Schleifen
+Analyse des Benefits in 3 Disziplinen
+
+Infixnotation:
+Wunsch zur Verallgemeinerung der Inkrement/Dekrement-
+Schreibweise
+Herleitung über mögliche Kombinationen
+der nötigen Zeichen
+Ermittlung der einzigen geeigneten 
+durch das Ausschlussprinzip
+Gegenüberstellung der alten u. neuen Schreibweise
+Analyse des Benefits
+
+Aufgaben:
+I.: Skript bis Folie 272
+ohne: Doppelschleife 190-203, 
+entartete Schleife 239-244,
+Gültigkeitsbereiche 245-252,
+Compilerfehler 253-268,
+Prä- u. Postfix
+zusätzliche Dokumente:
+- Programmablaufpläne.docx
+- PAP_für_For-Schleife.docx
+- Inkrement_Dekrement_Schreibweise.docx
+- Infixnotation.docx
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgaben 
+zu Schleifen:
+1. Hochzaehlen,
+2. Herunterzaehlen
+3. Die 100 ersten Vielfachen von 179,
+siehe separate Aufgabenstellung
+zur Inkrement/Dekrement-Schreibweise:
+4. Umgestaltung der bisherigen Schleifen
+mit der neuen Schreibweise
+
+
+Tag 6: 10.05.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Besprechung der Aufgaben zur for-Schleife,
+zum Inkrement/Dekrement-Operator u. zur Infixnotation
+
+Beispiel für Infixnotation: 
+Berechnung von Zweierpotenzen
+
+Die Fakultätsfunktion als wichtige Funktion
+in der Wahrscheinlichkeitsrechnung
+Herleitung u. Definition
+Umsetzung als Übung zur Infixnotation
+
+While- oder Bedingungsschleife
+als Alternative zur for- oder Zählschleife
+Abgrenzung der beiden Schleifen voneinander
+Beispiel: Die Vielfachen einer Zahl,
+die kleiner als eine Obergrenze sind
+
+Bedingte Anweisungen, Entscheidungen
+als zweite wichtige Kontrollstruktur neben Schleifen
+Motivation: Verhindern einer Division durch Null.
+Division soll nur ausgeführt werden, wenn Divisor ungleich Null.
+Erste Form: Die einseitig bedingte Anweisung
+Herleitung über den PAP der gewünschten Struktur
+
+Zweiseitig bed. Anw.
+Herleitung aus dem Beispiel mit zwei unabhängigen
+einseitig bed. Anw., 
+deren Bedingungen sich gegenseitig ausschließen.
+Umwandeln des Beispiels von oben mit zwei einseitigen-
+in eine zweiseitige bed. Anw.
+Analyse des Benefits
+
+Kaskade als dritte Form der bed. Anw.
+Motivation über Vergrößern der Anzahl
+alternativ auszuführender Blöcke
+Beispiel: Kontostand: 1. Haben, 2. ausgeglichen 3. Soll
+
+Aufgaben:
+I.: Skript bis Folie 435,
+zusätzliche Dokumente:
+- Infix_übungen.docx,
+- Fakultät.docx,
+- while- oder Bedingungsschleife.docx
+- Bedingte_Anweisungen.docx
+- Betragsermittlung.docx
+optional:
+Switch, Modulo-Operator, PZ-Test, break, do-while-Schleife
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgaben:
+1. zur Infix-Notation: 
+Berechnung der allgemeinen Potenz,
+siehe separate Aufgabenstellung
+2. zur einseitig bed. Anw.:
+Dokument: "Betragsermittlung" Aufg. 2
+3. zur zweiseitig bed. Anw.
+Dokument Aufg. 3: Umwandlung von zwei einseitigen-
+in eine zweiseitige bed. Anw.
+4. zur Kaskade:
+Output wie Folie 312
+5. Profiaufgabe:
+Ermitteln Sie für int u. long,
+welches die größte darin darstellbare Fakultät ist!
+
+
+Tag 7: 11.05.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Besprechung der Aufgaben zu einseitigen u. zweiseitigen
+bedingten Anweisungen u. zur Kaskade.
+
+Eclipse:
+Kritisches Betrachten der bisheriger Vorgehensweise 
+beim Programmieren.
+Vorzüge einer integrierten grafischen Benutzerumgebung
+wie Eclipse oder Visual Studio.
+Herunterladen u. Installieren von Eclipse.
+Erstes Hello-World-Programm in der Umgebung.
+
+Grundlegende Schritte:
+- Projekt anlegen
+- Klasse in Projekt erzeugen
+- Automatismus zum Speichern
+- Compilation, Ausführung
+
+Features in Eclipse:
+- Syntax Highlighting
+- Hervorgeben von Fehlern schon bei der Eingabe
+- Auto-Vervollständigen von Strukturen
+- Vorschläge von Befehlen
+- Hervorhebung von Variablen
+- Anfordern von Vorschlägen mit <Strg> + <Leer>
+- Falteditor
+- Auto-Formatieren mit <Shift> + <Strg> + f
+- Refactor/Rename-Funktion für Variablen, Klassen u. Projekte
+- Blockweises Einrücken
+- Duplizieren der aktuellen Zeile oder eines Blockes
+- Relatives Positionieren der Fenster
+- Makros wie für die Ausgabeanweisung
+
+Exportieren u. Importieren von Projekten
+Ausprobieren an einem Beispiel
+
+Aufgaben:
+I.: Dokument: Bedienungsanleitung_Eclipse.txt
+II.: Verständnisfragen aus separater Datei
+III.: zu Eclipse:
+1.Übertragen Sie einen Quelltext aus CMD-Umgebung
+in ein Eclipse-Projekt.
+Üben Sie dabei die Features ein!
+2. Exportieren Sie das Projekt,
+löschen Sie es physisch u. importieren Sie es danach!
+
+
+Tag 8: 12.05.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Zusammenstellung einiger nützlicher Shortcuts für Eclipse
+
+Zwei Programme in der Zinseszinsrechnung im Vergleich,
+eine Aufgabenstellung für eine for-,
+eine zweite für eine while-Schleife
+
+Struktogramme als alternative zu PAPs
+zur grafischen Veranschaulichung von Programmabläufen.
+Auflistung der Grundelemente
+Beispieldarstellung für alle eingeführten Kontrollstrukturen:
+bedingte Anweisungen: einseitige, zweiseitige u. Kaskaden
+sowie für for- u. while-Schleife
+
+Pseudocode:
+Motivation zur Abstraktion von existierenden Programmiersprachen
+Beispiel für mögliche Implementierungen
+des Programmrahmens u. der Kontrollstrukturen.
+
+
+Aufgaben:
+I.: Dokumente:
+- Eclipse_Shortcuts.txt
+- Zinseszinsrechnung.txt
+- Struktogramme.docx
+- Pseudocode.docx
+- Radioaktiver Zerfall.docx
+- Faku_groesser_als_1_Mio.docx
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgaben:
+zur while-Schleife:
+1. Radioaktiver Zerfall laut gleichnamigem Word-Dokument
+Profiaufgabe, höherer Schwierigkeitsgrad:
+2. Die kleinste Zahl, deren Faku größer als 1 Mio ist,
+siehe Word-Dokument "Faku_groesser_als_1_Mio.docx" 
+3. zu Struktogrammen:
+Gestalten Sie die Aufgabe mit dem radioaktiven Zerfall
+in einem Struktogramm
+4. zu Pseudocode:
+Geben Sie die gleiche Aufgabe in Pseudocode wieder!
+
+
+
+Tag 9: 14.05.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Besprechung der Aufgaben zu den while-Schleifen
+
+Wiederverwendbarkeit von Code: Das Methodenkonzept
+In anderen Sprachen: Funktion oder Prozedur
+Erste Motivation: Gliederung eines großen Quelltextes
+Vergleiche: Untergliederung eines litararischen Lebenswerkes
+in Bände, Kapitel, Unterkapitel
+Leeres rundes Klammerpaar zur Unterscheidung von Variablen
+Zweiteilung von Methoden: Deklaration u. Aufruf
+Konventionen für Namen von Methoden.
+Ort der Auslagerung: Hinter der Hauptmethode
+auf gleicher Ebene (im Gegensatz zu Pascal)
+Vergleich mit Links in HTML-Dokumenten
+
+Zwei einfache Beispiele
+
+Zweite Motivation: hierarchische Gliederung:
+Eine Methode ruft eine zweite u. diese eine dritte auf
+Erzeugung einer hierarchischen Struktur
+mit beliebig vielen Ebenen.
+Einfaches Beispiel dazu.
+
+Dritte Motivation: mehrfacher Aufruf von Methoden,
+um an verschiedenen Stellen im Programm die gleichen
+Aktionen ausführen zu können,
+ohne sie textuell duplizieren zu müssen.
+Beispiel: Mehrfache Ausgabe einer Reihe von Sternen
+Nachteile einer Quelltextduplizierung:
+Aufblähung des Codes u. schwer änderbar/erweiterbar
+Auslagerung in Methode "schreibe_Sterne()"
+Umsetzung am Beispiel
+ 
+Aufgaben:
+I.: Skript bis Folie 590
+mit zusätzlichem Dokumente: Methodenkonzept.docx
+ohne globale Variablen 494-526 
+u. ohne Auslagerung in Dateien 526-574
+II.: Verständnisfragen aus separater Datei
+
+
+
+Tag 10: 17.05.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Parameterkonzept bei Methoden:
+Motivation: Nicht nur identische,
+sondern auch ähnliche Aufgaben sollen mehrfach
+von Methoden ausgeführt werden können.
+Im Beispiel: Verallgemeinerung von "schreibe_Sterne()",
+eine beliebige Anzahl von Sternen zu schreiben.
+
+Methoden als "black box".
+Vergleich mit Kaffeemaschine.
+Suche nach dem "Eingabeschlitz" für Informationen
+in eine Methode.
+Das runde Klammerpaar als Schnittstelle.
+Parameter werden deklariert wie lokale Variablen.
+Lesender u. schreibender Zugriff.
+Formale u. aktuelle Parameterliste
+Umsetzung am Beispiel.
+
+Beispiel für Methode mit Parameter:
+Fakultätsberechnung wird ausgelagert mit Par.
+Damit Berechenbarkeit der Faku mehrerer Zahlen
+
+Parameterliste:
+Erweiterung des einzelnen Paramerers zur Paramterliste
+Motivation: Weitere Verallgemeinerung am Beispiel von oben.
+Es soll eine beliebige Anzahl eines beliebigen
+Buchstabens ausgegeben werden.
+
+Beispiel für Parameterliste mit Parmetern gleichen Typs:
+Maximumsbeispiel.
+Parameter gleichen Typs dürfen nicht zusammengefasst werden!
+Ermittlung der größeren von zwei übergebenen Zahlen.
+
+Rückgabewert einer Methode
+Motivation über den Wunsch,
+mit dem Ergebnis einer Berechnung einer Methode
+weiterarbeiten zu können
+u. ihn nicht einfach nur auszugeben.
+"void" in Methodendeklaration wird ersetzt
+durch zurückzugebenden Typ.
+Schlüsselwort "return" zur Rückgabe u. Verlassen.
+Umsetzung am max-Beispiel von oben.
+Single-out mit nur einem return-Statement,
+was stilistisch besser ist.
+
+Umgestaltung der Fakultätsmethode mit Rückgabewert,
+um mit den Fakultäten von Zahlen
+weiterrechnen zu können, z.B. sie zu addieren.
+
+Aufgaben:
+I.: Skript bis Folie 747,
+dabei optional: Bibliothek 724-747
+zusätzliche Dokumente:
+- Parameter.docx
+- Parameterlisten.docx
+- Rückgabewerte von Methoden.docx
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgaben:
+1. zu Parameterlisten: 
+Erweitern von "schreibe_Sterne()" um einen bool-Parameter,
+siehe Präsi Folie 625:
+Zu Rückgabewerten:
+2. max-Aufgabe bei steigender Anzahl Parameter,
+die Polymorphismus vorbereitet.
+3. Methode "sind_sortiert()" bestimmt von 3 übergebenen int-Parametern,
+ob sie aufsteigend sortiert sind,
+siehe separate Aufgabenstellung
+
+
+Tag 11: 18.05.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Erarbeiten der Programmieraufgaben 
+zur Erweiterung einer Parameterliste
+u. zu Rückgabewerten von Methoden
+
+Aufgreifen einer früheren Aufgabe,
+einer booleschen Wertetabelle.
+Umgestaltung mit den inzwischen eingeführten Konzepten 
+für Methoden, Parameter u. Rückgabewert.
+Dadurch Vermeidung von Quelltextduplizierung
+u. Gewinn an Wartbarkeit, Änderbarkeit u. Erweiterbarkeit.
+
+Verschachtelung auf mehreren Ebenen,
+um Ausgabe "einzudeutschen".
+Aufrufhierarchiediagramm dazu
+
+Der Binomialkoeffizient "n über k"
+zur Berechnung der Anzahl Möglichkeiten,
+k Objekte auf n Plätze zu verteilen,
+z.B. 6 Kreuze auf 49 Felder des Lottoscheines.
+Berechnung als Anwendung für verschachtelte Methoden 
+mit Parametern u. Rückgabewert.
+
+Wegen Bereichsüberlauf bei "normalem" Lottoschein
+zwei work-arounds:
+1. kleineren eigenen Lottoschein definieren
+2. auf Fließkommazahlen ausweichen.
+
+Polymorphismus: "Vielgestaltigkeit"
+Motivation durch mehrere Methoden,
+die für unterschiedliche Parameter
+die gleiche Aufgabe erledigen.
+Hier im Beispiel:
+Methoden "max_3_int()", max_4_int()" u.s.w.
+bestimmen das Maximum von übergebenen Zahlen
+
+Aufgaben:
+I. Skript wie bisher
+zusätzliches Dokument: Binomialkoeffizient.docx, if_true.txt
+Projekt: Max_ohne_Poly
+II. Verständnisfragen aus separater Datei
+III.: Programmieraufgaben zu verschachtelten Methoden
+mit Parameter u. Rückgabewert:
+1. Berechnung des Binomialkoeffizienten,
+siehe Dokument "Binomialkoeffizient.docx"
+2. Anwendung für einen "kleinen Lottoschein"
+3. Abwandlung auf Basis von Fließkommazahlen,
+um Wahrscheinlichkeit für einen Sechser
+bei einem "normalen" Lottoschein 6 aus 49 zu berechnen.
+
+zur Vorbereitung des Polymorphismus:
+Erweitern Sie das Projekt "Max_ohne_Poly"
+um Methoden "max_4_int()", "max_2_double()",
+"max_3_double()" u. "max_4_double()
+
+
+Tag 12: 19.05.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Erarbeiten der Programmieraufgaben 
+zum Binomialkoeffizienten
+als Beispiel für die Verschachtelung von Methoden
+mit Parametern u. Rückgabewerten,
+weitere Methoden in Klasse "Max_ohne_Poly".
+
+Analyse der Klasse "Max_ohne_Poly":
+Störend sind die unterschiedlichen Namen
+u. die Fehleranfälligkeit bei falscher Zuordnung.
+Wunsche wäre, alle Methoden gleich nennen zu dürfen
+u. die Selektion dem Compiler zu überlassen.
+
+Aussage des Polymorphismus:
+Es darf mehrere Methoden gleichen Namens geben,
+sofern sie sich in der Parameterliste unterscheiden.
+
+Umsetzung an obigem Beispiel: "Max_mit_Poly"
+Alle Methoden heißen gleich: "max()"
+mit 2, 3 und 4 int- u. double-Parametern
+
+Überladen von Methoden:
+Methoden mit gleichem Namen aber unterschiedlicher
+Parameterliste nennt man "überladen".
+Hier im Beispiel ist die Methode "max()" überladen.
+
+Zusammenstellung der Unterscheidungskriterien
+für Parameterlisten zur Anwendung des Polymorphismus,
+empirisch ermittelt an einem einfachen Beispiel:
+Länge, Typ u. Reihenfolge.
+
+Hinarbeiten auf das Folgethema: Felder, arrays
+O-Notation zur Darstellung des Zusammenhangs,
+wie der Aufwand im Verhältnis zur Eingangsgröße steigt.
+Grafische Darstellung typischer Vertreter:
+konstant, linear, polynomiell, exponentiell
+Für jedes Wachstumsverhalten ein Beispiel.
+
+Aufgaben:
+I. Dokumente "Polymorphismus_max.docx" u. "O-Notation.docx"
+II. Verständnisfragen aus separater Datei
+III. Programmieraufgaben zum Polymorphismus:
+1. Klasse "Sort_ohne_Poly" mit Methoden ohne Poly.
+Übergang zu Klasse "Sort_mit_Poly".
+unter Anwendung des Poly.
+zur O-Notation:
+2. Erhöhen Sie die Anzahl Parameter bei dem max-Methoden.
+Wie steigt der Aufwand?
+3. Dito bei den sort-Methoden u. gleicher Fragestellung.
+
+
+Tag 13: 20.05.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Erarbeiten der Programmieraufgaben zum Polymorphismus 
+u. zur ansteigenden Anzahl von Parametern
+bei den Methoden "sort()" u. "max()"
+
+Betrachtung des Aufwandes bei den beiden Methoden max() u. sort()
+bei steigender Anzahl Parameter:
+Bei "sort()" linearer, bei "max()" quadratischer,
+d.h. allgemeiner polynomieller Anstieg.
+Das ist für große Anzahlen von Parametern nicht vertretbar!
+
+Zusammenstellung der störenden Faktoren für große Eingaben.
+Daraus erwachsend die Wünsche, die wir hätten:
+Elemente "gebündelt" übergeben können, Automatismus zur Namensvergabe,
+Automatismus zum Durchlaufen aller Elemente auch bei großer Zahl.
+
+Das Feld oder array als Erfüllung unserer Wünsche!
+Definition eines Feldes als Zusammenfassung
+einer beliebig großen Zahl von Elementen gleichen Typs.
+Indizierung zum Ansprechen der Elemente des Feldes,
+bei 0 beginnend bis "Feldgröße - 1".
+Elementnummer mit Offset von 1 gegenüber Indexnummer
+Das eckige Klammerpaar als typisches Zeichen für Felder
+Vergleich mit Ansprechen eines Hauses einer Straße
+Lesender u. schreibender Zugriff
+Automatismus zum Durchlaufen eines Feldes beliebiger Größe
+Deklaration eines Feldes
+
+Einfaches Beispiel:
+Ein Feld deklarieren, ein Element davon beschreiben u. wieder auslesen
+Zweites Beispiel:
+Automatisiertes Belegen eines Feldes mit der Element-Nr.
+Automatisierte Ausgabe der Paare (Index, EleNr)
+
+Lookup-Table "Spickzettel" als Anwendung von Feldern
+Hier: Feld von double-Elementen
+Alokierung eines Elementes mehr als notwendig,
+um Offset-Problematik zu umgehen.
+Provokation eines Fehlers durch Bereichsüberlauf
+
+Übergabe von Feldern an Methoden
+"Call by value" vs. "Call by reference"
+Bei zusammengesetzten Datentypen wie dem Feld
+erfolgt Übergabe als Referenz auf das Original
+Umgestaltung des Beispiels von oben
+
+Aufgaben:
+I.: Skript über Felder bis Folie 88
+zusätzliche Dokumente:
+- Motivation_Felder.docx
+- Felder.docx
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgaben zu Feldern
+1. Cocktailliste als Feld von Strings,
+siehe separate Aufgabenstellung
+2. Lookup-Table für die Fakus von 1 bis 20
+Profiaufgabe, bezieht sich auf optionale Themen:
+3. Primzahlen-Feld aus booleschen Elementen bis 1000:
+An Stelle pz_Feld[i] soll "true" stehen,
+wenn i eine PZ ist.
+Wieder "normaler" Schwierigkeitsgrad:
+4. Gestalten Sie die bisherigen Aufgaben zu Feldern so um,
+dass Sie das Feld als Parameter übergeben!
+
+
+
+Tag 14: 21.05.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Erarbeiten der Programmieraufgaben zu Feldern
+sowie deren Übergabe an Methoden.
+
+Bearbeitung von Feldern unterschiedlicher Größe.
+Möglichkeit bei bisherigem Kenntnisstand:
+Übergabe der Länge als Parameter
+Nachteil: Mehraufwand, Fehlerquelle
+Besser: <Feldname>.length
+Konstante wird bei Anlegen des Feldes mit erzeugt
+u. ist überall sichtbar, wo es auch das Feld ist.
+
+Beispiel:
+3 Felder unterschiedlicher Größe sollen 
+mit der Element-Nr. belegt u. ausgegeben werden
+in Methoden "feld_belegen()" u. "feld_ausgeben()".
+Analyse des Benefits.
+
+Umsetzung des motivierenden Beispiels für Felder,
+das Maximum einer beliebig großen Anzahl
+übergebener Zahlen zu berechnen,
+indem diese als Feld übergeben werden.
+Aufstellung des Algorithmus dafür.
+Methode zur beliebigen Belegung des Feldes
+mit "verstecken" des Maximums in der Mitte.
+
+Zweites Beispiel, 
+in dem Felder ihre Stärke zeigen:
+Frage, ob ein beliebig große Anzahl 
+von übergebenen Zahlen aufsteigend sortiert ist.
+Methode "sort()" mit Übergabe eines beliebig großen Feldes.
+Test am einem sortierten u. an einem unsortierten Feld.
+
+Aufgaben:
+I.: Skript über Felder bis Folie 182 
+optional: Operatione auf Felder
+zusätzliches Dokument: "max_mit_Feld.txt", "Sort_mit_Feld.txt"
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgaben 
+1. zu "<Feldname>.length":
+Umgestaltung der bisherigen Beispiele
+mit Bezug auf die Feldgröße
+2. zum max()- sowie sort()- Beispiel:
+Andere Belegung des Feldes zur max-Bestimmung
+
+
+
+Tag 15: 25.05.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Motivation für die Objektorientierte Programmierung
+am Beispiel einer anzulegenden Personendatenbank
+mit unseren Mitteln mit Feldern.
+Analyse der störenden Faktoren:
+1. Speicherplatzverschwendung
+2. unflexibel: Größenänderung nicht zur Laufzeit möglich
+Daraus erwachsende Wünsche:
+1. Speicher nur für aktuellen Bedarf allokieren
+2. Flexibilität, Personen nach Belieben anlegen zu können,
+nur durch den verfügbaren Speicherplatz begrenzt.
+
+Einführung OOP:
+Vergleich mit Weihnachtsbäckerei,
+wo wir ein Förmchen basteln u. daraus Plätzchen ausstechen.
+Begriffe: abhängige u. unabhängige Klasse,
+Objekt, Instanz, Attribut
+
+Erzeugung eines Objektes einer Klasse
+im Vergleich zur Deklaration eines Feldes.
+Lesender wie schreibender Zugriff
+auf die Attribute der (abhängigen) Klasse.
+Implizite Initialisierung
+
+Umsetzung am Beispiel:
+Klasse Rechteck mit den Attributen "laenge" u. "breite".
+Erzeugung einer Instanz im Hauptprogramm.
+Belegung der Attribute u. Ausgabe.
+
+Qualitativer Unterschied zwischen der bisherigen statischen
+u. den eingeführten objektorientierten, dynamischen Programmierung:
+Zur Laufzeit können beliebig viele Objekte erzeugt werden,
+nur durch den verfügbaren Arbeitsspeicher begrenzt.
+
+Methoden in abhängigen Klassen als zweitem Aspekt neben Attributen.
+Auslagerung der Anweisungen zur Ausgabe der Attribute
+in die abhängige Klasse.
+Prinzip der Delegation von Arbeit im Vergleich
+mit einem Wirtschaftsbetrieb wie einer Anwaltskanzlei.
+
+Verschiedene Kategorien von Methoden:
+1. Ein/Ausgabe wie schon kennen gelernt
+2. Berechnung auf Attributen
+3. Veränderung der Attribute
+Jeweils ein Beispiel in Klasse "Rechteck":
+Berechnung: "berechne_Flaeche()"
+Veränderung: "vertausche_Seiten()"
+
+Aufgaben:
+I.: Skript OOP bis Folie 77
+Zusätzliche Dokumente: Motivation_OOP.docx, Einführung_OOP.docx,
+Geometrienachhilfe.docx
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgaben zur Einführung OOP:
+1. Klasse "Dreieck" mit int- u. bool-Attributen
+2. Ähnlich Klasse "Kreis".
+Beides siehe separate Aufgabenstellung
+3. Auslagerung der Ausgabe in Methoden der abh. Klassen
+4. Methoden zur Berechnung auf den Attributen
+
+
+
+Tag 16: 26.05.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Erarbeiten der Aufgaben zum Einstieg in die OOP:
+- Erstellen einer Klasse "Dreieck" mit 3 int- u. einem bool-Attribut.
+- Instanziierung in der Hauptklasse u. Belegung der Attribute.
+- Ausgabe der Attribute erst in der Hauptklasse,
+dann ausgelagert in eine Methode der abhängigen Klasse.
+- Methoden zu geometrischen Eigenschaften,
+zusammengefasst in Methode "eingenschaften()",
+um Quelltextduplizierung zu vermeiden.
+
+Gültigkeitsbereiche:
+Motivation über die Frage,
+ob die Deklaration einer Zählvariablen einer Schleife
+auch an anderen Stellen stattfinden kann.
+Lokale vs. globale Variablen
+Vergleich mit Lichtern in Zimmern einer Wohnung.
+Vergleich mit Übersetzung von z.B. Deutsch nach Englisch.
+Regel: So lokal wie möglich, so global wie nötig.
+Seiteneffekte als weiteren negativen Aspekt von globalen Variablen 
+neben dem Speicherverbrauch.
+
+Zugriffsmodifizierer, getter- u. setter-Methoden:
+Motivation über Vergleich eines geplünderten Kühlschrankes.
+Unterbinden eines direkten lesenden u. schreibenden Zugriffs
+von außerhalb der Klasse mit Zugriffsmodifizierer "private".
+Gegenteil: "public".
+
+Direkter Zugriff auf ein "gekapseltes Attribut"
+von außerhalb der Klasse wird zurückgewiesen.
+"... is not visible..."
+
+getter-Methode liefert den Wert eines Attributes
+an die aufrufende Instanz zurück.
+setter-Methode setzt das Attribut auf den übergebenen Wert.
+
+
+Aufgaben:
+I.: Skript bis Folie 84,
+zusätzliche Dokumente: "Gültigkeitsbereiche.docx",
+"getter_und_setter_Methoden_Teil_1.docx"
+optional: "Einfaches_und_doppeltes_und_Zeichen.txt
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgabe zu Zugriffsmodifizierern:
+In Projekt "Kreis": Kapselung des Attributes "radius"
+u. Provokation einer Fehlermeldung
+bei direktem lesenden wie schreibenden Zugriff.
+
+
+
+Tag 17: 27.05.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Erarbeiten der Aufgabe zur Kapselung der Attribute
+in der Klasse Kreis mit provozierter Fehlermeldung
+bei direktem Zugriff.
+
+Implementierung von getter-Methoden:
+Aufgabe, äußere Form: mit Rückgabewert aber ohne Parameter.
+Implementierung am Beispiel der Klasse "Rechteck"
+für den Parameter "laenge".
+
+Implementierung von setter-Methoden in zwei Schritten:
+Aufgabe, Form: ohne Rückgabewert aber mit Parameter.
+Komplementärer Charakter von getter- u. setter-Methoden.
+1. Form: Parametername anders als Attributsname.
+2. Form: Beide Bezeichner gleich.
+
+Scheitern an drei Punkten.
+Effekt der "Verschattung" eines globalen Attributes
+durch einen lokalen Parameter.
+Lösung: Schlüsselwort "this" überwindet lokalen Kontext
+u. erlaubt wieder Zugriff auf das Attribut.
+
+Fehlerbehandlung in setter-Methoden
+zum Abwehren inkonsistenter Werte,
+z.B. negativer Länge oder Breite in Klasse "Rechteck":
+Abwehr eines "Kuckuckseies".
+Vergleich mit Firewall, die Schadsoftware blockiert.
+
+Der Stapel oder Stack als wichtige Datenstruktur.
+Bildliche Darstellung eines Stapels.
+Anwendung für Speicherung von Methodenaufrufen
+mit Rücksprungadresse.
+Vergleich mit Vor- u. Zurückfunktion im Browser.
+
+Zentrale Operationen: "push()" u. "pop()"
+Hilfsoperationen zum Auslesen der Größe,
+zur grafischen Darstellung u.ä.
+Implementierung auf einem Feld.
+Vergleich mit einem Regal aus beliebigem Grundstoff.
+Abhängige Klasse mit zentraler Datenstruktur 
+u. allen Attributen u. Methoden.
+Hauptprogramm, das Instanzen eines Stapels erzeugt.
+Definierte Schnittstelle zu Benutzer,
+was sichtbar sein soll u. was nicht.
+
+Aufgaben:
+I.: Skript bis Folie 122,
+zusätzliches Dokument: "getter_und_setter_Methoden.docx"
+in vollständiger Version.
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgaben zu getter- u. setter-Methoden:
+1. Kapseln Sie in der Klasse "Kreis" alle Attribute
+u. implementieren Sie getter- u. setter-Methoden!
+2. Dito mit Klasse Dreieck
+3. Fehlerbehandlung in den Klassen aus Aufgaben 1 u. 2
+
+
+
+Tag 18: 28.05.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Erarbeiten der Aufgabe zur Kapselung von Attributen,
+Zugriff über getter- u. setter-Methoden
+sowie Fehlerbehandlung in letzteren.
+
+Fortführung Stack:
+Implementierung der Datenstruktur u. der Attribute,
+differenziert in public u. private.
+Implementierung der Hilfsmethoden:
+get_size(), get_max_size(), is_empty(), is_full()
+
+Erzeugung eines Stacks aus dem Hauptprogramm heraus.
+Abfrage der Eigenschaften aus dem Hilfsmethoden.
+Auslagerung der 4 Eigenschaften in einem Methode "status()",
+um Quelltextduplizierung zu verhindern.
+
+Implementierung der zentralen Operationen "push()" u. "pop()".
+Mögliche Fehler: Overflow: push() auf vollem,
+Underflow: pop() auf leerem Stack.
+Fehlerbehandlung in beiden Fällen,
+um einen Laufzeitfehler "ArrayIndexOutOfBoundsException" zu verhindern.
+
+Implementierung einer Methode zur grafischen Darstellung
+des Stacks mit unseren bescheidenen Mitteln: "print_stack()".
+
+Automatisiertes Auf- u. Abbauen eines Stacks
+mit Ausgabe von Statusmeldungen 
+mit je einem Over- u. einem Underflow.
+
+Aufgaben:
+I.: Skript bis Folie 132,
+zusätzliches Dokument: "Stack.docx"
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgaben:
+1. Stack von Buchstaben zum Spiegeln eines Wortes: "Palindrom",
+siehe separate Aufgabenstellung
+2. Profiaufgabe, setzt optionales Thema:
+"Präfix- u. Postfixnotation" voraus:
+Wie können bei "push()" u. "pop()"
+die beiden Anweisungen zusammengefasst werden?
+
+
+Tag 19: 31.05.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Erarbeiten der Aufgabe zu Stacks, 
+dieses Mal mit Buchstaben als Grundtyp:
+Buchstaben eines Palindroms werden eingeben 
+u. in gespiegelter Reihenfolge wieder ausgeben.
+
+Übergabe von Objekten an Methoden
+auf gleiche Weise wie Felder oder Vertreter von elementaren Datentypen.
+Hier im Beispiel:
+Übergabe eines Stacks an Methoden zum füllen u. leeren.
+
+Konstruktoren:
+Motivation von zwei Seiten:
+1a) Doppelte Nennung von Klassenname u.
+1b) rundes Klammerpaar bei Erzeugung von Objekten.
+2. Wusch zur der Vereinfachung der Erzeugung u. Belegung eines Objektes.
+
+Einführung in mehreren Schritten:
+1. Der Standardkonstruktor,
+der automatisch bei Anlegen einer abhängigen Klasse mit angelegt wird.
+2. Selbst definierter Konstruktor überschreibt Standardkonstruktor.
+Besonderheiten gegenüber "normalen" Methoden.
+
+3. Konstruktoren mit beliebigen Parametern,
+insbesondere so viele, wie die Klasse Attribute hat.
+Damit bequeme Erzeugung des Objektes 
+u. Belegung aller Parameter in nur einer Anweisung.
+
+4. Mehrere Konstruktoren parallel
+nach den Erkenntnissen des "Polymorphismus",
+da Konstruktoren spezielle Methoden sind.
+Definition von "Standardwerte" bei fehlender Angabe.
+Wahlweise Erzeugung eines Objektes je nach Bedarf.
+
+Vergleich mit Dialogfeld,
+Standardangaben zu übernehmen oder mit eigenen zu überschreiben.
+Umsetzung der einzelnen Stufen am Beispiel "Dreieck".
+
+Aufgaben:
+I.: Skript bis Folie 185,
+dabei optional: Beispiel zu Dualzahlen
+zusätzliches Dokument: Konstruktoren_Teil_1
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgaben:
+1. Nachvollziehen der Schritte zur Einführung von Konstruktoren
+an der Klasse "Rechteck".
+2. Dito mit Klasse "Kreis".
+3. Definieren Sie in beiden Klassen je einen Konstroktor ohne-
+u. einen mit so viele Parametern, wie die Klasse Attribute hat.
+Jeweils eine Instanz erzeugen!
+
+
+Tag 20: 01.06.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Erarbeiten der Aufgaben zu Konstruktoren
+in Klasse "Rechteck" u. Klasse "Kreis".
+
+Beliebige Kombinationen von Parametern in Konstruktoren.
+Definition von "Default-Werten" für nicht angegebene Werte.
+Umsetzung in den Klassen Rechteck u. Kreis
+mit allen möglichen Kombinationen.
+
+Fehlerbehandlung in Konstruktoren:
+Zuerst im allgemeinsten:
+Fehlerbedingung, Fehlermeldung,
+vollständiger Satz Zuweisungen für Fehlerfall
+sowie für regulären Fall.
+
+Um Fehlerbehandlung in allen Konstruktoren zu gewährleisten,
+wäre dieser Aufwand in jedem Konstruktor nötig.
+Das wäre Codeduplizierung u. für eine große Anzahl Parameter untragbar.
+
+Wunsch: Aufwand für Fehlerbehandlung
+u. beide vollständigen Sätze von Zuweisungen
+nur an einer Stelle definieren
+u. von allen anderen darauf verzeigern, "verketten".
+
+Verkettung von Konstruktoren:
+Direkte Referenzierung des allgemeinsten Konstruktors
+aus einem spezielleren nicht möglich wegen Verschattung.
+Lösung: "this"
+Damit Verzeigerung aller Konstruktoren auf den allgemeinsten.
+Damit Fehlerbehandlung in allen Konstruktoren
+u. Vermeidung von Codeduplizierung.
+
+Umsetzung an den Konstruktoren für die Klasse "Dreieck":
+Verkettung auf den allgemeinsten.
+
+Aufgaben:
+I.: Skript bis Folie 231
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgaben:
+1. zu Konstruktoren mit allen möglichen Kombis von Parametern:
+Klasse "Dreieck" mit restlichen Kombinationen, 
+siehe separate Aufgabenstellung
+2. zur Verkettung von Konstruktoren:
+Alle verbliebenen Konstruktoren aus Aufgabe 1 verketten
+
+
+
+Tag 21: 02.06.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Erarbeiten der Aufgaben zu Konstruktoren
+mit allen möglichen Parameterkombinationen
+sowie zur Verkettung der Konstruktoren
+mit Fehlerbehandlung.
+
+Analyse u. Design:
+Phasen der Softwareentwicklung:
+Analyse, Design, Implementierung.
+Verschiebung der Gewichtung 
+von der Implementierungs- zur Designphase.
+
+Pflichtenheft als juristisches Dokument
+zum Fixieren der Leistungen. 
+Mögliche Betrugsversuche von beiden Seiten.
+Prototyp als Vorschau auf die grafische Oberfläche
+ohne dahinter implementierte Funktionalität.
+
+Vergleich mit Bau eines Hauses:
+Genauer Plan von Architekt bevor erster Stein
+in die Hand genommen wird,
+um unnötigen Rückbau bei Fehlern zu vermeiden.
+Automatisierte Implementierung aus präzisem Modell.
+
+Vorbereitung: Projekt "Dualzahlen"
+als zusammenfassendes Beispiel für alle erlernten Techniken
+wie Konstruktoren, Verkettung dieser, Zugriffsmodifizierer,
+Felder, OOP-Konzept u.s.w.:
+
+Basics der Digitaltechnik: analog vs. digital
+Warum in einer analogen Welt eine digitale einführen?
+Vergleich von Schlallplatte u. CD.
+Leichte technische Darstellbarkeit von digitalen Signalen
+u. verlustfreie Rekonstruktion nach Verfälschung.
+
+Stellenwertsystem, 
+Wertigkeit einer Stelle bei beliebiger Basis, 
+Grundlage von Dualzahlen hergeleitet aus Dezimalzahlen. 
+Gegenüberstellung: Dual-, Dezimal- u. Hexadezimalzahlen.
+MSB u. LSB: Most u. Least Significant Bit.
+
+
+Aufgaben:
+I.: Skript wie bisher,
+zusätzliche Dokumente: 
+- Analyse_und_Design.docx
+- Stellenwertsystem.docx
+II.: Verständnisfragen aus separater Datei
+
+
+
+Tag 22: 04.06.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Forstetzung des Projektes zu Dualzahlen:
+Zentrale Datenstrkutur: ein boolesches Feld von 8 Bits
+Kapselung gebenüber Benutzer
+positive u. negative Logik für Zuordnung von
+1 u. 0 zu true u. false
+
+Methode zur Ausgabe der Dualzahl.
+Ausgabe als Einsen u. Nullen mit Tab getrennt.
+Extratab zwischen 2 Blöcken zur Übersichtlichkeit.
+Implementierung in mehreren Versionen mit Optimierung
+auf Laufzeit u. Eleganz.
+
+Konstruktoren für Dualzahlen:
+Gegenüberstellung, welche Belegungen häufig gebraucht werden
+sowie mögliche Konstruktoren mit entsprechenden Parametern.
+Konstruktor ohne Parameter erzeugt Nullvektor.
+
+Konstruktor mit einem Parameter soll Null- oder Einsvektor erzeugen.
+Implizite Fehlerkorrektur 
+durch Abbildung einer ungültigen Eingabe auf "false".
+Optimierung in mehreren Stufen.
+
+Konstruktor zur Erzeugung eines beliebigen Bitmusters
+mit 8 Parametern mit impliziter Fehlerkorrektur.
+Implementierung aller Konstruktoren u. Testen,
+sowohl für erlaubte Eingabe als auch für unerlaubte.
+
+Aufgaben:
+I. Skript wie bisher.
+zusätzliches Dokument: "Dualzahlen_bis_Konstruktoren.docx"
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgaben zu Konstruktoren bei Dualzahlen:
+1. Konstruktor, der 4 Bits 2 Mal dupliziert
+2. Konstruktor, der 2 Bits 4 Mal dupliziert,
+siehe separate Aufgabenstellung.
+
+
+Tag 23: 07.06.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Erarbeitung der beiden Aufgaben zu Konstruktoren bei Dualzahlen:
+Übergabe 1. eines Quadrupels sowie 2. eines Paares von Parametern
+mit jeweiliger Duplizierung.
+Instanziierung eines Objektes für jeden Konstruktor 
+zur Verifikation mit Ausgabe.
+
+Hinarbeiten auf Thema: "Testen"
+In Projekt "Dualzahlen" umwandlung von Dual- nach Dezimalzahlen:
+Beschreibung des Algorithmus,
+erst umgangssprachlich, dann in Pseudocode.
+Grafische Darstellung der Handlungsabfolge im Feld.
+
+1. Version mit Hilfsmethode "zweihoch()" 
+zur Ermittlung der Wertigkeit an jeder Stelle.
+Quadratische u. damit polynomielle Laufzeit: O(n²).
+
+2. Optimierung unter Verzicht auf Hilfsmehtode,
+stattdessen Ermittlung der Wertigkeit einer Stelle
+durch eine Hilfsvariable mit Anpassung bei jedem Schleifendurchlauf.
+Dadurch Reduktion der Komplexität auf O(n), also linear.
+
+Gegenrichtung: Umwandlung von dezimal nach dual:
+Auch hier erst umgangssprachliche Beschreibung des Algorithmus,
+dann Pseudocode, schließ Implementierung in erster Version.
+Auch hier: Zuerst quadratische Laufzeit.
+
+1. Optimierung: 
+Hilfsvariable, die Ergebnis der Berechnung aufnimmt.
+Dadurch Vermeidung der doppelten Berechnung,
+aber immer noch quadratische Laufzeit.
+
+2. Optimierung: 
+Hilfsvariable ersetzt Aufruf der Hilfsmethode.
+Initialisierung der Hilfsvariablen mit der Wertigkeit des MSBs.
+Anpassung durch Halbierung ähnlich wie oben bei jedem Schleifendurchlauf.
+Damit Reduktion der Laufzeit von O(n²) auf O(n).
+
+
+Aufgaben:
+I.: "Dualzahlen.docx" in vollständiger Version.
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgaben:
+1. Vollziehen Sie die beiden Algorithmen
+mit den verschiedenen Optimierungsstufen nach!
+2. Spielen Sie die beiden Algorithmen
+für selbst gewählte Zahlen durch!
+
+
+Tag 24: 08.06.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Testen:
+Ziel: Fehler zu finden u. eliminieren.
+Zusammenhang zwischen Eingangsgrößen u. möglichen Zuständen.
+Exponentielles Wachstum des Suchraum.
+In der Praxis deshalb keine vollständige Abdeckung möglich.
+
+Suche nach Verfahren, automatisiert zu testen.
+Testskript zum stichprobeartigen Testen von großen-
+oder zum vollständigen Testen von kleinen Suchräumen.
+Operation u. Gegenoperation, die sich gegenseitig aufheben
+u. dadurch automatisieren lassen.
+
+Erstellen eines Testskripts für die komplementären Operationen,
+eine Dezimalzahl umzuwandeln in eine Dualzahl u. wieder zurück.
+Erste Version mit einer einzelnen Zahl u. ausführlichem Output
+inclusive der dualen Darstellung als Zwischenergebnis.
+
+Zweite Version mit verkürztem Output ohne Zwischenergebnis.
+Dritte Version mit globalem Fehlerflag
+u. konstantem Output bei beliebiger Anzahl Tests
+sowie Ausgabe aller Fehlerstellen.
+Provokation eines Fehlers zum Test.
+
+Black- u. white box test:
+Testen bei vorliegendem Quelltext dem Text entlang
+oder nur nach den logischen Fällen bei unbekanntem Quelltext.
+Bei bekanntem Quelltext kann genauer getestet werden,
+alle Pfade können durchlaufen werden.
+
+Unit- oder Komponententest: Test einzelner Teile wie Methoden.
+Integrationstest: Zusammenspiel von Komponenten über Schnittstellen.
+Systemtest: Test des Gesamtsystems.
+Abnahmetest: Beim Kunden oder mit Kundendaten beim Entwickler.
+
+Vererbung:
+Motivation für dieses Thema über Implementierung
+verschiedener Kategorien von Mitarbeitern einer Firma,
+die die meisten Attribute gemeinsam haben.
+Direkte Implementierung wäre Codeduplizierung.
+
+Aufgaben:
+I.: Dokument: "Testen.docx", "Vererbung.docx"
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgaben:
+Profiaufgabe zum "Explodieren" des Suchraumes
+schon bei kleiner Anzahl Parameter u. trivialen Operationen.
+Hier: Quadrat mit einer u. Rechteck mit 2 Seiten
+für den ganzen positiven int-Raum.
+
+
+
+Tag 25: 09.06.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Vererbung: WDH der Grundbegriffe von gestern.
+Umsetzung der Vererbung in einem Projekt "Quader_1",
+mit Superklasse "Rechteck" u. abgeleiteter Klasse "Quader",
+die ein int-Attribut "hoehe" dazufügt.
+Erzeugen einer Instanz, Belegung u. Ausgabe im Hauptprg.
+
+Vererbung nicht nur von Attributen, sondern auch von Methoden.
+Ausgabemethode in der Subklasse "Quader"
+bezieht sich auf die der Superklasse "Rechteck"
+zur Ausgabe der gemeinsamen Attribute
+u. wird nur um das zusätzliche Attribut ergänzt. "Code recycling"
+
+Auch bei Berechnungen Wiederverwendung von Methoden 
+der Superklasse als Teilergebnis.
+Beispiele: Berechnung von Volumen u. Oberfläche im Quader
+greift auf Fläche des Rechteckes zurück,
+Berechnung von Kantenlänge im Quader auf Umfang des Rechteckes.
+
+Überschreiben von Methoden:
+Motivation: Sowohl für Superklasse als auch für Subklasse 
+sind jeweils Methoden zur Ausgabe definiert.
+Die Zuordnung muss vom Benutzer "von Hand" vorgenommen werden.
+Bei falscher Zuordnung nur Teilausgabe oder Fehlermeldung.
+
+Wunsch, Auswahl zu automatisieren.
+Beide Methoden werden gleich genannt: "schreibe()".
+Die geerbte wird überschrieben von der lokal implementierten.
+Damit erfolgt automatische Auswahl
+je nach Zugehörigkeit des Objektes zur Super- oder Subklasse.
+
+Wird eine Methode der Superklasse in der Subklasse überschrieben,
+kann sie nicht mehr direkt angesprochen werden,
+sondern nur noch indirekt mit "super.<Methodenname>".
+Situation ähnlich wie bei Verkettung von Konstruktoren.
+
+Überladen vs. Überschreiben von Methoden.
+Darstellung der Gemeinsamkeiten sowie der Unterschiede:
+Gleiche Methodennamen in beiden Fällen,
+einmal auch gleiche Parameterlisten, einmal unterschiedliche.
+
+Aufgaben:
+I.: Skript bis Folie 288
+Zusätzliches Dokument: 
+"Überschreiben_von_Methoden_bei_Vererbung.docx"
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgaben:
+1. Erzeugung einer neuen Klasse durch Vererbung.
+2. Zur Vererbung von Methoden.
+3. Zu Berechnungen mit geerbten Methoden, "code recycling".
+4. Zum Überschreiben von Methoden.
+
+
+
+
+Tag 26: 10.06.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Besprechung der Aufgaben:
+1. Zur Vererbung, Instanziierung, Belegung der Attribute.
+2. Ausgabemethode in Subklasse benutzt die der Superklasse.
+3. Berechnungen in Subklasse mit Methoden der Superklasse.
+4. Überschreiben der geerbten Ausgabemethode.
+
+Beispiel, in dem die beiden Effekte "Überladen" u. "Überschreiben" parallel auftreten:
+Methoden "vervielfache()" in Superklasse "Rechteck" u. Subklasse "Quader", 
+teilweise mit unterschiedlichen Parameterlisten, teilweise mit gleichen.
+
+UML: Unified modeling language:
+Objektorientierte, standardisierte Modellierungssprache
+Ziele: grafische Veranschaulichung, international standardisiert, 
+automatische Codegenerierung.
+
+Zwei Diagrammtypen:
+1. Strukturdiagramme
+2. Verhaltensdiagramme
+
+a) Klassendiagramm:
+Gibt Aufbau einer Klasse sowie Beziehungen zwischen Klassen wieder, z.B. Vererbung.
+Schreibweise unterscheidet sich von der in Java.
+Optional sind Angaben, wie Beziehung gelesen werden müssen
+sowie über quantitative Verhältnisse.
+
+b) Objektdiagramme:
+Spezifikation von Objekten einer Klasse
+In 1. Zeile steht Objekt- u. Klassennamen, unterstrichen, fett u. zentriert.
+Diagramme zeigen Werte von konkreten Objekten 
+sowie deren Beziehungen untereinander.
+
+c) Sequenzdiagramme:
+Gibt die Aktionen wieder,
+die zwischen Akteuren stattfinden.
+Eine Lebenslinie geht von jedem Akteur aus.
+Von dort aus richten sich Aktionen zu den anderen Beteiligten.
+
+d) Usecase- oder Anwendungsfall-Diagramme:
+Es zeigt, welche Aktionen von einem Benutzer
+einem System gegenüber ausgelöst werden können,
+nicht jedoch den Aufbau des Systems.
+
+Aufgaben:
+I.: Skript wie bisher,
+zusätzliches Dokument: "UML.docx"
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgaben:
+zum parallelen Überladen u. Überschreiben:
+Klasse "Zylinder" erbt von Klasse "Kreis".
+Methoden "skaliere()" in Sub- u. Superklasse mit unterschiedlichen Parametern,
+siehe separate Aufgabenstellung.
+
+
+Tag 27: 11.06.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Besprechung der Aufgabe zum gleichzeitigen Überladen u. Überschreiben:
+Klasse "Zylinder" erbt von Klasse "Kreis".
+Beide haben Methoden "skaliere()" ohne Parameter: Überschreiben
+In Zylinder eine zusätzliche Methode gleichen Namens mit Parameter: Überladen
+
+Weiters Beispiel zum gleichzeitigen Überladen u. Überschreiben:
+Methode "schreibe()" sowohl in Super- als auch in Subklasse definiert: Überschreiben.
+Weiter Methode gleichen Namens jedoch mit einem Parameter
+für eine kompaktere Ausgabe: Überladen.
+Testen von allen Versionen der Methode.
+
+Vererbung in mehreren Generationen.
+Umsetzung am Beispiel, indem Klasse A an B u. diese wieder an C vererbt.
+
+Frage der Vererbung gekapselter Attribute:
+Gekapselte Attribute werden nicht vererbt!
+Demonstration am Beispiel.
+
+Größeres zusammenfassendes Beispiel für OOP,
+dabei für die nachträgliche Erweiterbarkeit von OOP-Software,
+sowie für die Vererbung u. UML-Diagramme:
+
+Klassen PKW, LKW u. Traktor lagern gemeinsame Attribute aus
+in Klasse KFZ, von der sie erben.
+Jeweils Methoden zur Ausgabe mit Bezug auf die Methode der Superklasse.
+Instanziierung mindestens eines Objektes einer Klasse
+mit Ausgabe sämtlicher Attribute.
+
+
+Aufgaben:
+I.: Skript wie bisher.
+zusätzliches Dokument: "Vererbung_in_mehreren_Generationen.docx"
+II.: Verständnisfragen aus separater Datei
+III.: Programmieraufgabe zum KFZ-Beispiel:
+Implementierung des KFZ-Beispiel für Vererbung 
+zu Ende führen wie schon im Unterricht begonnen,
+siehe separate Aufgabenstellung
+2. Jeweils UML Klassendiagramme sowie ein Objektdiagramm
+
+
+
+Tag 28: 14.06.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Fortführung des KFZ-Beispiels,
+zum Einen als Anwendung für Vererbung,
+zum Anderen um die leichte nachträgliche Erweiterbarkeit
+von OOP-Software in alle mögliche Richtungen zu demonstrieren.
+
+Dies ist im kommerziellen Kontext von Bedeutung,
+wenn für eine Ausschreibung ein schon vorhandenes Projekt
+mit wenig Aufwand abgewandelt werden kann,
+um den Anforderungen eines aktuellen zu entsprechen,
+dabei aber weniger Kosten zu haben.
+
+Verbesserungen:
+a) Benutzung des Prinzips "Überschreiben von geerbten Methoden",
+um alle Ausgabemethoden gleich zu nennen.
+Somit Arbeitsersparnis u. Vermeidung der Fehlerquelle,
+versehentlich die falsche Methode aufzurufen.
+
+b) Konstruktoren zur bequemeren Erzeugung u. Belegung der Objekte
+mit nur einer Anweisung.
+Bezug auf den Konstruktor der Superklasse für die gemeinsamen Attribute.
+Ergänzung der dazugekommenen Attribute.
+
+1. Erweiterung: "zur Seite":
+Weitere Subklassen "Motorrad" u. "Panzer" 
+unter der Superklasse "Strassenfahrzeug"
+mit zusätzlichen Attributen "beiwagen" bzw. "kaliber"
+u. Bezug auf die Superklasse bei Erzeugung u. Ausgabe.
+
+2. Erweiterung: "in die Tiefe":
+Zusätzliches Attribut "anschaffungspreis" in der Superklasse,
+das auf alle 5 Subklassen vererbt wird.
+Anpassung der Konstruktoren u. der Ausgabemethoden.
+Mehraufwand nur in der Superklasse, sonst nur Weiterreichen.
+
+3. Erweiterung: "nach unten":
+Bisherige Subklasse "PKW" wird zur Superklasse
+mit Subklassen "Sportwagen", "Strassenwagen" u. "Gelaendewagen".
+Zusätzliche Attribute: "turbo" bei Sportwagen, "seilwinde" bei Gelaendewagen.
+Instanz "jeep" eines Geländewagens.
+
+Aufgaben:
+I.: Skript bis Folie 394
+mit zusätzlichem Dokument "KFZ-Beispiel.docx".
+II.: Verständnisfragen aus separater Datei.
+III.: Programmieraufgaben:
+Fertigstellung des Projektes mit einer Ebene darüber:
+Neben der bisherigen Klasse "Strassenfahrzeug"
+sollen "Flugzeug" u. "Schiff" als Luft- bzw. Wasserfahrzeuge
+implementiert werden.
+Siehe separate Aufgabenstellung.
+
+
+Tag 29: 15.06.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Systempflege: Datensicherung
+Auflistung der Gefahren für Daten.
+Malware: Definition u. Formen.
+Schäden, die Malware anrichten kann.
+Ausspionieren von Daten u. dessen Folgen.
+
+Ransomware: Betrügerische Verschlüsselung von Daten
+unter Erpressung eines Lösegeldes
+Viren, Würmer u. Trojaner
+Viren nach ursprünglicher Definition
+u. nach heutigem Sprachgebrauch als Synonym für Malware allgemein.
+
+Herkunft der Bezeichnung "Trojaner"
+Phishing
+Verbreitung von Schadsoftware:
+Auflistung der häufigsten Verbreitungswege
+wie Anhänge von E-Mails, manipulierte Internetseiten u.ä.
+
+Angriffsszenarien von Hackern
+wie "Denial of service", "distributed denial of service",
+"man in the middle".
+
+Aufbau von Schadsoftware mit Verbreitungs- u. Schadteil.
+Generierung von IP-Adressen mittels Algorithmus u. zufällig
+sowie Verwendung der Kontakte des Opfers.
+Schadteil beliebig. 
+Komponenten austauschbar.
+
+Gegenmaßnahmen:
+Kritisches Problembewusstsein, 
+Sensibilisierung von Mitarbeitern,
+Vermeidung dubioser Seiten,
+Anti-Viren-Software, Firewall, System aktuell halten u.a.
+
+Aufgaben von Anti-Viren-Software u. Firewalls.
+Prophylaktische u. reagierende Aktivitäten
+Geschäftsmodelle
+Aufzählung verbreiteter Herstellerfirmen
+für Antivirensoftware.
+
+
+Aufgaben:
+I.: Dokument "Gefahren_für_Daten.docx"
+II.: Verständnisfragen aus separater Datei.
+III.: Eigene Recherche nach den benutzten Begriffen
+sowie aktueller Schadsoftware
+bei Herstellern von Antivirensoftware sowie dem BSI.
+
+
+
+Tag 30: 16.06.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Systempflege: Datensicherung
+Motivation für Hacker, die Daten stehlen oder löschen wollen,
+beginnend bei kommerziellen Interessen
+über politischen oder religiösen Fanatismus
+bis zur "sportlichen Disziplin" ohne weitergehende Interessen.
+
+WLAN als Risikofaktor für Datensicherheit.
+Verschlüsselung mit WEP, WPA, WPA-2, WPA-3
+Risiko: WPS zur vereinfachten Einrichtung einer Verbindung.
+Wichtig: Komplexe Kennworte.
+
+Systempflege: Datensicherung: Medien dafür
+HDDs als klassisches Medium.
+Speicherung beruht auf Magnetisierung
+sich schnell drehender Scheiben.
+Viele Nachteile aufgrund der mechanischen Elemente.
+
+SSDs als Nachfolgmedien ohne bewegliche Mechanik:
+Dadurch schneller, geringer im Strombedarf,
+leise, nicht empfindlich gegenüber Magnetismus,
+nicht erschütterungsempfindlich, kein mechanischer Verschleiß.
+Momentan noch teurer als HDDs.
+
+Optische Medien verschiedener Generationen:
+CD, DVD, BD mit unterschiedlichen Kapazitäten.
+Nur einmal oder mehrfach beschreibbar.
+Nur einmal beschreibbare sind interessant für unveränderliche Daten.
+Technik "M-Disc" zur Verlängerung der Lebensdauer.
+
+NAS als "persönliche Cloud" auf Basis von HDDs oder SSDs,
+per Netzwerkkarte eingebunden ins Heim- oder Firmennetz,
+drahtlos oder drahtgebunden.
+Remotezugriff einrichtbar.
+Zentraler Ort für Sicherheitskopien im lokalen Netz.
+
+Cloudspeicher:
+Anmietung externer Ressourcen wie Speicher u. Rechenkapazität: "outsourcen".
+Hohe Ausfallsicherheit auch bei großflächiger lokaler Gewalteinwirkung
+wie Naturkatastrophen oder Sabotage.
+Gefahr der unautorisierten Einsichtnahme in die Daten.
+
+
+Aufgaben:
+I.: Erweitertes Dokument "Gefahren_für_Daten.docx"
+sowie "Medien_für_Datensicherung.docx"
+II.: Veständnisfragen aus separater Datei
+III.: Recherchieren Sie nach den behandelten Medien
+zum Zweck der Datensicherung:
+HDDs, SSDs, NAS, USB-Sticks
+optische Laufwerke mit Medien verschiedener Typen u. Größen
+sowie Cloudspeicher verschiedener Anbieter.
+
+
+
+Tag 31: 17.06.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Wartungsarbeiten: Defragmentierung von Festplatten.
+Warum der Effekt der Fragmentierung eintritt.
+Defragmentierung als Maßnahme,
+der Zerstückelung von Dateien auf Festplatten entgegen zu wirken.
+Stelle, wo sie in Windows 10 aufgerufen werden kann.
+
+Wartungsarbeiten: Überprüfen von Datenträgern.
+Prüfung auf Konsistenz mit "chkdsk".
+Prüfmuster wird geschrieben u. gelesen. Bei Diskrepanz: Fehler.
+Aussortieren fehlerhafter Sektoren.
+Aufruf unter Windows 10.
+
+Datensicherung: Backup-Strategien
+Vollständiges Backup: sicher, aber aufwändig u. hohe Redundanz.
+Manuelles Backup veränderter Daten:
+Sparsamer bzgl. des Speichers, aber weniger sicher.
+Inkrementelles Backup: Kompromiss:
+Automatisiert werden veränderte Daten gespeichert.
+Zyklisches Backup: Fixe Anzahl Datenträger,
+die zyklisch mit vollständigen Backups beschrieben werden.
+
+Auflistung praxisrelevanter Vorgehensweisen für Backups:
+Interne HDD, abschaltbare Version, NAS, dito abschaltbar,
+externe HDD, USB-Stick, optische Medien, Cloud.
+Matrix, welche der Vorgehensweisen vor welchen Bedrohungen schützen.
+
+RAID: "Redundant Array of Independent Discs":
+Zusammenschluss mehrerer unabhängiger Festplatten
+RAID 0: Striping: Geschwindigkeitsgewinn, Sicherheitsverlust.
+RAID 1: Mirroring: Sicherheitsgewinn bei gleichbleibender Geschwk.
+RAID 10: Kombination mit sowohl Sicherheits-
+als auch Geschwindigkeitsgewinn bei erhöhtem Aufwand.
+
+Recherche im Internet nach Medien für Sicherheitskopien:
+HDDs, SSDs, externen HDDs, NAS, USB-Sticks, 
+optischen Laufwerken sowie Medien dafür.
+
+Aufgaben:
+I.: Dokumente: Defragmentierung.docx",
+"Fehlerüberprüfung_eines_Datenträgers",
+"Backup_Strategien.docx", 
+"Backups_bzgl_Gefahren.docx", "RAID.docx"
+II.: Verständnisfragen aus separater Datei.
+III.: Recherche im Internet fortsetzen 
+nach geeigneten Medien für Sichheitskopien
+für Ihren persönlichen Bedarf.
+
+
+
+Tag 32: 18.06.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Störungen analysieren u. beheben,
+hier am Beispiel: Störungen im WLAN: 
+Geringe Übertragungsrate, Verbindungsabbrüche.
+
+Basics zu WLAN sowie Anforderungen an das System. 
+Zusammenhang zwischen Frequenz, Datendurchsatz u. Reichweite
+am Beispiel von UKW- u. MW-Radio.
+
+Übertragung auf die Frequenzbänder bei WLAN:
+2.4 GHz u. 5 GHz-Bänder.
+Jeweilige Vor- u. Nachteile.
+Aspekt der Anzahl der unabhängigen Kanäle.
+Auslastung aufgrund des historischen Wachstums.
+
+Standards von WLAN IEEE 802.11, 
+von ihnen benutzte Frequenzbänder sowie maximal erzielbarer Datendurchsatz
+in historischer Reihenfolge.
+Bandbreite bei den Bändern im grafischen Vergleich.
+Störungsbehebung durch Ausweichen auf ein anderes Band.
+
+Recherche nach WLAN-Hardware 
+unter Berücksichtigung von Frequenzbereichen u. Standards
+u. damit maximal erzielbaren Datenraten,
+für Router wie FritzBoxen, Speedports als Sender,
+aber auch Empfänger wie WLAN-Karten, USB-Adapter-Sticks u.a.
+
+Aufgaben:
+I.: Dokument "Störungen_WLAN.docx"
+II.: Verständnisfragen aus separater Datei
+III.: 
+1.
+Analysieren Sie kritisch Ihr WLAN zu Hause:
+Kommt es zu Aussetzern?
+Ist die Reichweite ausreichend?
+2. 
+Recherchieren Sie nach alternativer,
+aktuellerer Hardware wie FritzBoxen,
+Speedports oder vergleichbaren.
+
+
+
+Tag 33: 21.06.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Störungen analysieren u. beheben:
+Verbesserung der Empfangssituation des WLANs
+mit Accesspoints (AP) bzw. Repeatern.
+Damit Stabilisierung der Verbindungen
+sowie Steigerung der Reichweite in einem WLAN.
+
+Betriebsmodi eines AP: 
+WLAN- u. LAN-Brücken-Modus.
+Vor- u. Nachteile der beiden Modi.
+Einfache Geräte unterstützen nur den ersten Modus.
+Beispiel für WLAN-Brücken-Modus.
+
+Zweites Beispiel zur Ausleuchtung eines größeren Bereiches:
+Hier: Mittlere Wohnung mit Terrasse.
+Geschickte Positionierung des Routers u. mehrerer APs.
+Schaltung als LAN-Brücke.
+Analyse der Lösung: Optimal bei jedoch großem Aufwand.
+
+Roaming:
+Sind bei mehreren APs SSIDs u. Passworte gleich,
+wechselt das Gerät automatisch zu dem 
+mit der höchsten Sendeleistung: "Roaming"
+Dadurch logische Zusammenfassung mehrere physikalischen Netze.
+
+Diagnosetool am Beispiel des "inSSIDers":
+Übersicht u. grafische Darstellung der WLAN-Belegung
+für den 2.4- u. 5 GHz-Bereich.
+Damit Aufspüren von Frequenzüberlagerungen möglich,
+die Ursache für Störungen sein könnten.
+
+Zweites Diagnosetool: "FritzApp WLAN"
+zur Analyse der aktuell erzielten WLAN-Geschwindigkeit.
+Ausführung am Beispiel.
+Erstellung eines Berichtes.
+Beweis, dass Roaming stattfindet.
+
+Recherche nach Repeatern bzw. Accesspoints 
+bei Online-Händlern.
+Welche Standards werden unterstützt?
+Welche Geschwindigkeiten sind damit erreichbar?
+Was kostet aktuelle Hardware in dem Bereich?
+
+Aufgaben:
+I.: Dokumente: "Accesspoints_bei_WLAN.docx",
+"inSSIDer.docx", "FritzWLAN.docx"
+II.: Verständnisfragen aus separater Datei.
+III.: 
+1. Machen Sie sich Gedanken,
+wie Sie mit den eingeführten Mitteln
+Ihr WLAN verbessern können!
+2. Installieren Sie die beiden besprochenen Tools!
+Optimieren Sie Ihr Heimnetz!
+
+
+
+Tag 34: 22.06.2021
+WDH des Stoffes vom Vortag.
+Dabei Beantwortung aller Verständnisfragen.
+
+Klausurvorbereitung: Formale Aspekte der Klausur
+wie Bearbeitungszeit, erlaubte Hilfsmittel,
+Abgabeformalitäten, Punkteverteilung,
+Möglichkeit einer Nachschreibeklausur u.a.
+
+Inhaltliche Klausurvorbereitung:
+Repetitorium aller relevanten Inhalte
+aus den drei Bereichen:
+- Prozedurale Programmierung
+- Objektorientierte Programmierung
+- Systempflege
+
+Inhaltliche wiederholte Punkte:
+Def. Programmierung, Ansprüche an Computersprachen,
+Plattformunabhängigkeit, Compiler,
+Kategorien von Sprachen, Entwicklungsumgebungen:
+JDK, JRE, Installation mit Pfadsetzung, Programmrahmen,
+Blockbildung, Rolle des Semikolons, Aufbau von Befehlen,
+Konventionen, harte u. weiche.
+
+Datentypen u. Operationen darauf,
+Variablen, Notwendigkeit der Deklaration,
+einfache Deklaration, Mehrfachdeklaration,
+Initialisierung, Zuweisung, Ressourcen der Programmierung,
+Varianten des Ausgabebefehles, 
+Escape-Sequenzen, Kommentare
+
+Kontrollstruktur: for- oder Zählschleife, 
+Programmablaufplan: PAP, inkrement/dekrement-Schreibweise,
+Infixnotation, Fakultätsberechnung, Gültigkeitsbereiche,
+Compilerfehler
+
+Bedingte Anweisungen: einseitige, zweiseitige, Kaskade
+Struktogramme
+
+while- oder Bedingungsschleife
+
+Methodenkonzept mit Motivation zur Gliederung,
+mehrfachen Ausführen von Algorithmen ohne Codeduplizierung,
+hierarchische Gliederung von Aufrufen
+Parameter bei Methoden, Parameterliste, 
+Rückgabe von Parametern, Black-Box-Prinzip
+
+Polymorphismus für Methoden:
+Mehrere Methoden gleichen Namens parallel
+
+Eclipse als IDE für Java
+Projekte erzeugen, Klassen anlegen
+Projekte im- u. exportieren,
+diviverse Features von Eclipse
+
+Felder zur Zusammenfassung mehrerer Daten gleichen Typs,
+Lookup-Table
+Statischer Charakter schränkt ein u. motiviert OOP
+
+Klassen: abhängige u. unabhängige, Objekte u. Instanzen,
+bestehend aus Attributen u. Methoden
+
+Zugriffsmodifizierer: public, private
+getter- u. setter-Methoden
+
+Konstruktoren, der Standardkonsturktor,
+selbst definierte Konstruktoren, 
+Besonderheiten gegenüber "normalen" Methoden,
+mehrere Konstruktoren parallel, "Zwischengrößen"
+
+Fehlerbehandlung in Konstruktoren
+Verkettung von Konstruktoren
+
+UML mit Diagrammtypen: Struktur- u. Verhaltensdiagramm
+Klassen-, Objekt, Sequenz- u. Usecase-Diagramme
+
+Phasen der Softwareentwicklung:
+Analyse, Design, Implementierung
+Pflichtenheft, Prototyp
+
+Testen
+Prinzip, Testraum, 
+Testskript mit Operation u. Gegenoperation
+Black- u. white-Box-Test
+
+Vererbung von Attributen u. Methoden
+Überladen u. Überschreiben von Methoden
+
+Größere Projekte:
+1. Stack auf einem Feld im OOP-Kontext
+2. Dualzahlen mit formatierter Ausgabe,
+mit diversen Konstruktoren
+Umwandlung dual->dezial u. gekehrt
+3. KFZ-Beispiel
+
+Datensicherung:
+Gefahren für Daten, Medien für Sicherung,
+Strategien bei Backups mit Vor- u. Nachteilen
+
+Wartungsarbeiten:
+HDD defragmentieren u. auf Fehler prüfen
+
+Störungen analysieren u. beheben
+mit Diagnosetools:
+Störungen im WLAN mit Tools "inSSIDer"
+sowie "FritzApp WLAN"
+
+Aufgabe:
+Klausurvorbereitung
+anhand der Skripte zu PP, Felder u. OOP
+sowie der Eclipse-Projekte
+u. der Verständnisfragen.

@@ -1,0 +1,22 @@
+Befehle für den CMD:
+
+0. CMD öffnen:
+Windowstaste, "cmd", Enter
+
+1. cd: change directory: Verzeichnis wechseln
+Hier: cd C:\Java
+
+2. dir: directory: Inhalt des aktuellen Verzeichnisses anzeigen
+
+3. cls: clear screan: Fensterinhalt löschen
+
+4. Compiler aufrufen für Datei "Hallo.java":
+
+	javac Hallo.java
+
+Es entsteht eine Datei "Hallo.class"
+
+5. Laufzeitumgebung aufrufen für Bytecode,
+also Prg ausführen:
+
+	java Hallo

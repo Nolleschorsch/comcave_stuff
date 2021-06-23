@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FRAME GUID="2FB25471-B62C-4EE6-BD43-F819C095ACF8" FORMAT="0000" APP_VERSION="2.2.0.8" CHECKSUM="74F22D2B34349B93">
+  <PROJECT FORMAT="1.00" NAME="Kaskade mit 3 Blöcken" AUTHOR="Rainer" CREATED="2021.04.16 09:18:51" MODIFIED="2021.04.16 09:24:50">
+    <DIAGRAMS>
+      <DIAGRAM FORMAT="1.00" ID="0" NAME="Kaskade mit 3 Blöcken" CREATED="2021.04.16 09:19:01" MODIFIED="2021.04.16 09:24:50">
+        <LAYOUT FORMAT="1.00" COLUMNS="3" ROWS="6">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[Kaskade mit 3 Blöcken]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="2">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[<Bed 1>]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[<Block 1>]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="14">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="2">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="13">
+                <TEXT><![CDATA[<Bed 2>]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="3">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="12">
+                <TEXT><![CDATA[<Block 2>]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="4">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="16">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="2">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="20">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="3">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="24">
+                <TEXT><![CDATA[<else-Block>]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="4">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="26">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="5">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="6" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="15" FROM="6" TO="14" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="11" FROM="13" TO="12" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="9" FROM="4" TO="13" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="17" FROM="14" TO="16" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="18" FROM="12" TO="16" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="27" FROM="26" TO="2" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="21" FROM="13" TO="20" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="23" FROM="20" TO="24" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="25" FROM="24" TO="26" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="28" FROM="16" TO="26" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+    </DIAGRAMS>
+  </PROJECT>
+</FRAME>
